@@ -1,5 +1,7 @@
 body {
     background-image: url("chrome-chains.jpg");
+	height: 600px;
+ 	width: 1200px;
 }
 #topof {
 	width: 100%;
@@ -16,8 +18,8 @@ body {
 #banner {
 	-moz-transform: skew(-50deg);
 	height: 100%;
-    width: 62%;
-    background-color: red;
+    	width: 62%;
+    	background-color: red;
 	float: right;
 }
 #under {
@@ -98,7 +100,7 @@ a {
     margin-top: 25px;
     
 }
-reg, fieldset {
+fieldset {
 	background: red;
 	padding: 10px;
 	margin: 10px;
@@ -107,10 +109,14 @@ reg, fieldset {
 	-moz-border-radius-bottomleft: 20px;
 	-moz-border-radius-bottomright: 20px;
 }
-reg, body {
-    height: 630px;
+reg > body {
+    height: 600px;
     width: 1200px;
 }
-reg, p {
+reg > p {
     font-size: 9pt;
+}
+.labbe {
+	font-weight: bold;
+	font-size: 12pt;
 }        

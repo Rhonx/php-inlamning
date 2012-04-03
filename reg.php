@@ -8,16 +8,16 @@
 <body>
 <div id="regmain">
 <h1>Vänligen fyll i formuläret nedan</h1>
-<a href="fanpage.html" class="links">Tillbaka till huvudsidan</a>
-<form action="post" id="reg_form">
+<a href="fanpage.php" class="links">Tillbaka till huvudsidan</a>
+<form action="reg2.php" id="reg_form" method="post">
 <fieldset>
 <h4>Inloggningsuppgifter</h4>
 <p><label class="labbe" for="a_name">Användarnamn:</label>
-<input type="text" id="a_name" name="anvandarnamn">tecken tillåtna (a-z, A-Z, 0-9)</p>
-<p><label class="labbe" for="pass" id="">Lösenord:</label>
-<input type="password" id="" name="pass">mellan 6-10 tecken</p>
-<p><label class="labbe" for="pass" id="">Upprepa Lösen:</label>
-<input type="password" id="" name="pass"></p>
+<input type="text" id="a_namn" name="a_namn" value="">tecken tillåtna (a-z, A-Z, 0-9)</p>
+<p><label class="labbe" for="pass" id="pass" value="">Lösenord:</label>
+<input type="password" id="pass" name="pass">mellan 6-10 tecken</p>
+<p><label class="labbe" for="re_pass" id="" name="re_pass">Upprepa Lösen:</label>
+<input type="password" id="re_pass" name="re_pass" value=""></p>
 <p><label class="labbe" for="e_mail">E-post adress</label>
 <input type="email" id="" name="e_mail">Email för att återfå lösenord/användarnamn</p>
 </fieldset>
@@ -34,8 +34,6 @@
 <p><label class="labbe" for="age1">Ålder:</label>
 <input type="number" id="age1" name="age1" value="14" step="1"/></p>
 <input type="submit" id="skicka" name="submit" value="Registrera"/>
-</fieldset>
-</form>
 </fieldset>
 </form> 
 </div>
